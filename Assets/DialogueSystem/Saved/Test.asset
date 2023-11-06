@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d45022347aaee24ab5b98b35f2ce7cb, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  nodeData:
+  - GUID: 6cdaa35a-4b26-419c-a5f8-42da88c7830f
+    text: Test Node 1
+    position: {x: 174, y: 200}
+  - GUID: 8c2e90d9-ce9a-4178-ac2a-05828f230160
+    text: Test Node 2
+    position: {x: 457, y: 123}
+  - GUID: c2e77d95-f418-4366-a324-4487bcc1aaa4
+    text: Test Node 3
+    position: {x: 457, y: 251}
+  - GUID: 484e99df-68ce-442d-a787-9740679b476d
+    text: Test Node 6
+    position: {x: 741, y: 342}
+  - GUID: fbebb083-8623-4ea8-9fc5-9def9195634f
+    text: Test Node 5
+    position: {x: 741, y: 229}
+  - GUID: b06bacee-5227-40b8-ba41-1e3a5d21034f
+    text: Test Node 7
+    position: {x: 765, y: 51}
+  - GUID: 04174467-3991-4917-9c5b-5800cb92dce2
+    text: Test Node 4
+    position: {x: 1133, y: 51}
+  linkData:
+  - baseGuid: e5fa34ad-b275-45c2-899d-5db7bd092655
+    portName: Next
+    targetGuid: 6cdaa35a-4b26-419c-a5f8-42da88c7830f
+  - baseGuid: 6cdaa35a-4b26-419c-a5f8-42da88c7830f
+    portName: Test Node 1 Choice 0
+    targetGuid: 8c2e90d9-ce9a-4178-ac2a-05828f230160
+  - baseGuid: 6cdaa35a-4b26-419c-a5f8-42da88c7830f
+    portName: Test Node 1 Choice 1
+    targetGuid: c2e77d95-f418-4366-a324-4487bcc1aaa4
+  - baseGuid: c2e77d95-f418-4366-a324-4487bcc1aaa4
+    portName: Test Node 3 Choice 0
+    targetGuid: fbebb083-8623-4ea8-9fc5-9def9195634f
+  - baseGuid: c2e77d95-f418-4366-a324-4487bcc1aaa4
+    portName: Test Node 3 Choice 1
+    targetGuid: 484e99df-68ce-442d-a787-9740679b476d
+  - baseGuid: 484e99df-68ce-442d-a787-9740679b476d
+    portName: Test Node 6 Choice 0
+    targetGuid: 6cdaa35a-4b26-419c-a5f8-42da88c7830f
+  - baseGuid: fbebb083-8623-4ea8-9fc5-9def9195634f
+    portName: Test Node 5 Choice 0
+    targetGuid: 8c2e90d9-ce9a-4178-ac2a-05828f230160
+  - baseGuid: 8c2e90d9-ce9a-4178-ac2a-05828f230160
+    portName: Test Node 2 Choice 0
+    targetGuid: b06bacee-5227-40b8-ba41-1e3a5d21034f
+  - baseGuid: b06bacee-5227-40b8-ba41-1e3a5d21034f
+    portName: Test Node 7 Choice 0
+    targetGuid: 04174467-3991-4917-9c5b-5800cb92dce2
+  - baseGuid: b06bacee-5227-40b8-ba41-1e3a5d21034f
+    portName: Test Node 7 Choice 1
+    targetGuid: 04174467-3991-4917-9c5b-5800cb92dce2
+  - baseGuid: b06bacee-5227-40b8-ba41-1e3a5d21034f
+    portName: Test Node 7 Choice 2
+    targetGuid: 04174467-3991-4917-9c5b-5800cb92dce2
+  - baseGuid: b06bacee-5227-40b8-ba41-1e3a5d21034f
+    portName: Test Node 7 Choice 3
+    targetGuid: 04174467-3991-4917-9c5b-5800cb92dce2
