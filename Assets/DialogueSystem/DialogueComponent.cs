@@ -48,7 +48,7 @@ public class DialogueComponent : MonoBehaviour
             button.GetComponent<RectTransform>().sizeDelta = choicesArea.GetComponent<RectTransform>().sizeDelta;
             button.GetComponent<RectTransform>().anchoredPosition = new Vector2(0,  0);
             button.GetComponentInChildren<TextMeshProUGUI>().fontSize = 20f;
-            button.GetComponentInChildren<TextMeshProUGUI>().text = "<END>";
+            button.GetComponentInChildren<TextMeshProUGUI>().name = "<END>";
             
             button.GetComponent<Button>().onClick.AddListener(() => {
                 ClearDialogue();

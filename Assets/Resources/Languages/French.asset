@@ -10,45 +10,45 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 227e88f4f36b44949aaf73981bd93197, type: 3}
-  m_Name: English
+  m_Name: French
   m_EditorClassIdentifier: 
   dict:
     _serializedList:
     - Key: Test Node 1
-      Value: Where have you been?
+      Value: "O\xF9 \xE9tais-tu?"
     - Key: Test Node 1 Choice 0
-      Value: I've been at home watching Big Brother.
+      Value: "J'\xE9tais \xE0 la maison en train de regarder Big Brother."
     - Key: Test Node 1 Choice 1
-      Value: I've been here the whole time!
+      Value: "J'ai \xE9t\xE9 ici tout le temps !"
     - Key: Test Node 2
-      Value: Oh yeah, who got voted out?
+      Value: "Oh ouais, qui a \xE9t\xE9 rejet\xE9 ?"
     - Key: Test Node 2 Choice 0
-      Value: Voted out? I just watch it for the drama!
+      Value: "Vot\xE9? Je viens de le regarder pour le drama !"
     - Key: Test Node 3
-      Value: Am I just blind?
+      Value: Suis-je simplement aveugle ?
     - Key: Test Node 3 Choice 0
-      Value: I'm actually surprised you noticed me at all.
+      Value: "En fait, je suis surpris que tu m'aies remarqu\xE9."
     - Key: Test Node 3 Choice 1
-      Value: Well, I was going to tell you to get a stronger prescription.
+      Value: Eh bien, j'allais vous dire d'obtenir une prescription plus forte.
     - Key: Test Node 4
-      Value: Sure, it's the "drama"
+      Value: "Bien s\xFBr, c'est le \"drame\""
     - Key: Test Node 5
-      Value: Uhhh....
+      Value: Euhhh....
     - Key: Test Node 5 Choice 0
-      Value: <CONTINUE>
+      Value: <CONTINUER>
     - Key: Test Node 6
-      Value: Come on, I'm not that old!
+      Value: Allez, je ne suis pas si vieux !
     - Key: Test Node 6 Choice 0
-      Value: <RESTART>
+      Value: "<RED\xC9MARRAGE>"
     - Key: Test Node 7
-      Value: Testing 4 choices
+      Value: Tester 4 choix
     - Key: Test Node 7 Choice 0
-      Value: choice 1
+      Value: choix 1
     - Key: Test Node 7 Choice 1
-      Value: choice 2
+      Value: choix 2
     - Key: Test Node 7 Choice 2
-      Value: choice 3
+      Value: choix 3
     - Key: Test Node 7 Choice 3
-      Value: choice 4
+      Value: choix 4
     - Key: <END>
-      Value: <END>
+      Value: <FIN>
